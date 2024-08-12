@@ -52,16 +52,70 @@ table {
 =========================================*/
 html{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: calc(15px + 0.390625vw);
+    font-size: calc(12px + 0.390625vw);
 }
 a{
-    color: black;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 /*========================================
                    TOPO
 =========================================*/
+header {
+	margin: 5vw 5vw 5vw 5vw;
+}
 header nav ul{
     display: flex;
     justify-content: right;
 }
+header nav ul li{
+	margin: 0 10px 0 10px;
+}
+header nav ul li.works a{
+	color: #ff6464;
+}
+
+/*======================================================================
+                            Conteúdo
+======================================================================*/
+
+main{
+	margin: 0 15vw 0 15vw;
+}
+main h1{
+	font-size: 1.5rem;
+}
+main section{
+	padding: 0 0 4vw 0;
+	border-bottom: 2px solid grey;
+}
+main section:last-child{
+	border: none;
+}
+main section h2{
+	font-size: 1.2rem;
+	margin: 2vw 0 0 0;
+	font-weight: bold;/*======================================================================
+	Conteúdo
+======================================================================*/
+}
+main section p{
+	margin: 3vw 0 0 0;
+}
+main section p span{
+	background-color: #ff6464;
+	border-radius: 5vw;
+	color: white;
+	font-weight: bold;
+	padding: 3px 5px 3px 5px;
+}
+
+/*======================================================================
+                            FOOTER
+======================================================================*/
+
+footer{
+	text-align: center;
+	margin: 3vw 0 3vw 0;
+}
+
