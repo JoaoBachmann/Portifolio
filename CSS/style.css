@@ -146,6 +146,8 @@ main section.rt-post ul li {
 	background-color: white;
 	margin: 0 10px 0 5px;
 	font-size: 1.1rem;
+	border-radius: 2px;
+	padding: 2vw;
 }
 main section.rt-post ul li h3 {
 	font-weight: bold;
